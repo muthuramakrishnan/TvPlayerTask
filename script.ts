@@ -14,7 +14,7 @@ class Player{
         let cards = document.createElement('div');cards.setAttribute('class','cards');
         let card1 = document.createElement('div');card1.setAttribute('class','card1');
         this.playArea = card1;
-        this.currentVideo = 0;
+        this.currentVideo = 1;
         let img = document.createElement('img');
         img.setAttribute('width','100%');
         img.setAttribute('src','ledtv.png');
