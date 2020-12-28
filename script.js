@@ -9,7 +9,7 @@ var Player = /** @class */ (function () {
         var card1 = document.createElement('div');
         card1.setAttribute('class', 'card1');
         this.playArea = card1;
-        this.currentVideo = 0;
+        this.currentVideo = 1;
         var img = document.createElement('img');
         img.setAttribute('width', '100%');
         img.setAttribute('src', 'ledtv.png');
